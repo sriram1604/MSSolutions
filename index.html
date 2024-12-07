@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content=
+"width=device-width, initial-scale=1.0" />
+    <title>Business Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src=
+"https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="https://www.geeksforgeeks.org/">
+                    <span>MS Solutions</span>
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#home" class="menu-btn">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-btn">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="menu-btn">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#members" class="menu-btn">
+                        Founders
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-btn">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <span>☰</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">
+                    Hello, This is very best
+                </div>
+                <div class="text-2" style="display: flex;">
+                    <div id="hometext" style="color: white;"></div>
+                    <span class="typing" ></span>
+                </div>
+                
+                <div class="text-3">
+                    Agency 
+                   
+                </div>
+                <a href="#members" target="_blank">
+                    TALK TO AN EXPECT 🡺
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="about.jpg"/>
+                </div>
+                <div class="column right">
+                    <div class="text" id="textuh">
+                         
+                        <span class="typing-2"></span>
+                    </div>
+                    <p>
+                        we specialize in delivering innovative tech solutions for students, companies, and educational institutions. Our expertise spans AI projects, web development, IoT applications, and more, catering to both final-year students and industry professionals. For students, we provide customized final-year projects that are aligned with current industry trends, ensuring practical learning and skill development. Companies and institutions benefit from our tailored websites and AI solutions, designed to enhance user engagement and operational efficiency. With a focus on innovation, scalability, and quality, Prodigy Infotech is committed to turning your ideas into impactful digital solutions that drive success.
+                    </p>
+                    
+                    <a href=
+"#members">
+                        More Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our Services</h2>
+            <div class="services-content">
+                <div class="carousel owl-carousel">
+                    <a class="alink" href="#home">
+                        <div class="card">
+                            <div class="box">
+                                <i class="fas fa-archive"></i>
+                                <div class="text">Website & mobile app development</div>
+                                <p>
+                                    we specialize in creating dynamic, responsive, and user-friendly websites and mobile apps tailored to meet the unique needs of companies and educational institutions. Our mission is to provide cutting-edge digital solutions that help businesses and institutions thrive in the online world.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fas fa-paint-brush"></i>
+                            <div class="text">AI solutions</div>
+                            <p>
+                                We delivers tailored AI solutions that enhance efficiency, streamline operations, and drive innovation. We develop AI projects for IT sectors, educational institutions, and businesses, providing scalable, data-driven results for smarter decision-making and personalized experiences.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fas fa-code"></i>
+                            <div class="text">Student projects</div>
+                            <p>
+                                Our company specializes in creating innovative, AI-driven final-year projects for students. We provide customized solutions in web development, IoT, AI, and more, ensuring high-quality, industry-relevant projects. Our expert guidance helps students build practical skills and achieve academic success
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- services section start -->
+       <section class="services" id="members">
+        <div class="max-width">
+            <h2 class="title" style="margin-top: 30px;">Our Members</h2>
+            <div class="services-content">
+                <div class="carousel owl-carousel">
+                    <div class="card left-card" onmouseover="showInfo('left')" onmouseout="resetCenter()">
+                        <img src="Madh.jpg" alt="Member 1" style="height: 340px;">
+                    </div>
+                
+                    <div class="center-card" id="center-card" style="height: 340px;">
+                        <h2>Our Members</h2>
+                    </div>
+                
+                    <div class="card right-card" onmouseover="showInfo('right')" onmouseout="resetCenter()">
+                        <img src="srir.jpg" alt="Member 2">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Mr.M.Madhavan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Main-Branch</div>
+                                <div class="sub-title">📍Chennai</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="sub-title">+91 63792 84668</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">
+                                    
+                                    <p>madhavan9108x@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    
+                        
+                        <div class="button">
+                            <button type="submit" 
+                                onclick="window.location.href = 'https://forms.gle/QEhyhwn7EJ7doSTG7';">Click Here🡺
+                                
+                            </button>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start from here -->
+    <footer>
+        <!--<div class="socialIcons">
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>-->
+        <span>
+            Copyright by 
+            <a href="http://127.0.0.1:3000/index.html">
+                MS Solutions
+            </a>
+            <i class="fas fa-heart"></i> |
+            <span class="far fa-copyright"></span>
+            2024 Business Agency All rights
+            reserved
+        </span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        const centerCard = document.getElementById('center-card');
+    
+        function showInfo(side) {
+            if (side === 'left') {
+                centerCard.innerHTML = `
+                    <div class="cnt">
+                        <h2>Mr.M.Madhavan</h2>
+                        <h3>AI developer & Founder of MS Solutions</h3>
+                        <p>Contact: 6379284668</p>
+                        
+                    </div>
+                `;
+            } else if (side === 'right') {
+                centerCard.innerHTML = `
+                    <div class = "cnt">
+                        <h2>Mr.V.Sriram</h2>
+                        <h3>Software developer & Co-founder of MS Solutions</h3>
+                        <p>Contact: 6374536527</p>
+                        
+                    </div>
+                `;
+            }
+        }
+    
+        function resetCenter() {
+            centerCard.innerHTML = `<h2>Our Members</h2>`;
+        }
+    </script>
+    
+</body>
+
+</html>
